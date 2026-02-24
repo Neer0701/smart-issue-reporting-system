@@ -8,7 +8,10 @@ The system focuses on structured complaint handling, real time tracking, and tra
 
 Manual complaint systems suffer from:
 
-• Lack of tracking transparency • No centralized data storage • Delayed resolution • Poor communication between users and authorities
+• Lack of tracking transparency 
+• No centralized data storage 
+• Delayed resolution 
+• Poor communication between users and authorities
 
 This system digitizes the workflow and stores structured issue data in a centralized database.
 
@@ -16,36 +19,70 @@ This system digitizes the workflow and stores structured issue data in a central
 
 User Module
 
-• User registration and login • Submit new issue with category and description • View personal submitted issues • Track issue status
+• User registration and login 
+• Submit new issue with category and description 
+• View personal submitted issues 
+• Track issue status
 
 Admin Module
 
-• View all submitted issues • Update issue status • Manage user records • Dashboard based overview
+• View all submitted issues 
+• Update issue status 
+• Manage user records
+• Dashboard based overview
 
 System Features
 
-• RESTful API architecture • CRUD operations • Role based access • Structured database design • Secure authentication
+• RESTful API architecture 
+• CRUD operations 
+• Role based access 
+• Structured database design 
+• Secure authentication
 
 ->Tech Stack
 
-Frontend • HTML • CSS • JavaScript
+Frontend 
+• HTML 
+• CSS 
+• JavaScript
 
-Backend • Node.js • Express.js
+Backend 
+• Node.js 
+• Express.js
 
-Database • MongoDB
+Database 
+• MongoDB
 
-Tools • Postman for API testing • Ngrok for temporary public access
+Tools 
+• Postman for API testing 
+• Ngrok for temporary public access
 
 ->System Architecture
 
 Client sends HTTP request Backend Express server processes request MongoDB stores and retrieves issue data Response returned in JSON format
 
-Architecture Type • Three tier architecture • Client layer • Application layer • Database layer
+Architecture Type
+• Three tier architecture 
+• Client layer 
+• Application layer 
+• Database layer
 
 ->Database Design
 
 Collections Used
 
-Users • userId • name • email • password • role
+Users 
+• userId 
+• name 
+• email 
+• password 
+• role
 
-Issues • issueId • title • description • category • status • createdAt • userId
+Issues 
+• issueId 
+• title 
+• description 
+• category 
+• status 
+• createdAt 
+• userId
